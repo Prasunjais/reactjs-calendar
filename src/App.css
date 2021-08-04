@@ -114,8 +114,7 @@
 }
 
 .rbc-header{
-  background-color: black !important;
-  color: white !important;
+  color: black !important;
   padding-top: 5px !important;
   padding-bottom: 5px !important;
   border-radius: 5px;
@@ -160,8 +159,4 @@
   .bodyContainer{
     margin: 2%;
   }
-}
-
-.rbc-event-continues-day-after {
-  background-color: #28a745;
 }
