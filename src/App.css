@@ -24,6 +24,10 @@
   color: white;
 }
 
+.head {
+  color: white;
+}
+
 .App-link {
   color: #61dafb;
 }
@@ -67,9 +71,10 @@
 }
 
 .rbc-toolbar-label{
-  color:#222;
+  color:rgb(136, 131, 131);
+  margin-bottom: 20px;
   font-weight: bolder;
-  font-size: 20px  
+  font-size: 20px;
 }
 
 .modal{ display:block; }
@@ -114,14 +119,16 @@
 }
 
 .rbc-header{
-  color: black !important;
+  color: rgb(141, 141, 141) !important;
   padding-top: 5px !important;
-  padding-bottom: 5px !important;
-  border-radius: 5px;
+  padding-bottom: 2px !important;
+  border: unset !important;
 }
 
 .rbc-toolbar{
   flex-wrap: wrap-reverse;
+  width: 80%;
+  margin: 0 0 20px 40px;
 }
 
 .rbc-day-bg + .rbc-day-bg, .rbc-month-row + .rbc-month-row {
@@ -149,7 +156,7 @@
 
 @media screen and (min-width: 1080px){
   .bodyContainer{
-    width: 1050px;
+    width: 1500px;
     margin-left: auto;
     margin-right: auto;
   }
@@ -159,4 +166,37 @@
   .bodyContainer{
     margin: 2%;
   }
+}
+
+.rbc-time-header-content {
+  border-left: 0px !important;
+}
+
+.rbc-time-view .rbc-time-gutter .rbc-timeslot-group{
+  border: unset !important;
+}
+
+.rbc-time-content {
+  border: unset !important;
+}
+
+.rbc-timeslot-group{
+  border: 1px dashed #ccd3e8 !important;
+  min-height: 80px;
+  min-width: 180px;
+}
+
+.rbc-label {
+  color: rgb(141, 141, 141) !important;
+  vertical-align: unset;
+}
+
+.toolBtn {
+  color:rgb(216, 136, 99);
+  margin: 0px 10px 0 10px;
+}
+
+.anticon {
+  color:rgb(216, 136, 99) !important;
+  margin: 0px 10px 0 10px;
 }

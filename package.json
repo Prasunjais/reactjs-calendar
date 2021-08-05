@@ -3,11 +3,13 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "@ant-design/icons": "^4.6.2",
     "@babel/core": "^7.14.8",
     "@babel/preset-env": "^7.14.9",
     "@testing-library/jest-dom": "^5.14.1",
     "@testing-library/react": "^11.2.7",
     "@testing-library/user-event": "^12.8.3",
+    "antd": "4.16.10",
     "bootstrap": "^5.0.2",
     "localforage": "^1.7.1",
     "moment": "^2.22.1",
